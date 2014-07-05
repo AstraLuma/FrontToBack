@@ -1,0 +1,12 @@
+{
+  "name": "FrontToBack",
+  "version": "0.1",
+  "description": "Forces Facebook to display your news feed in the order it should be: newest to oldest.",
+  "permissions": ["webRequest", "webRequestBlocking",
+                  "*://*.facebook.com/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2
+}
